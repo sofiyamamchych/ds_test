@@ -38,7 +38,7 @@ h1{
 }
 
 .hero__textcol a:hover, .hero__brandlogo:hover{
-    opacity: 0.9;
+    opacity: 0.8;
 }
 
 .button{
@@ -48,29 +48,33 @@ h1{
     color: rgb(52, 84, 119);
     text-transform: uppercase;
     line-height: 1.464;
-    padding: 10px;
+    padding: 16px 39px 18px 42px;
     background-color: #9addfc;
     border-radius: 3px;
 }
 
 
 .hero__watch{
-    font-size: 14px;
+    font-size: 13.5px;
     font-family: 'Open Sans', sans-serif;
     color: rgb(149, 201, 251);
     text-decoration: underline;
-    padding: 10px 0 0px 13px;
+    padding: 9px 0 0 44px;
     line-height: 1.778;
 }
 
 
 .hero__watch img{
     width: 6px;
-    border: 1px solid rgb(149, 201, 251);
-    border-radius: 50%;
-    padding: 1px 2px 2px 2px;
 }
 
+.watch-arrow{
+    border: 1px solid rgb(149, 201, 251);
+    border-radius: 50%;
+    padding: 0px 4px 0px 5px;
+    font-size: 11px;
+    margin-left: 2px;
+}
 
 .hero__imgcol{
     /*width: 50%;*/
@@ -85,6 +89,7 @@ h1{
     font-family: 'Open Sans', sans-serif;
     color: rgb(163, 208, 252);
     text-align: center;
+    padding-bottom: 18px;
 }
 
 .hero__brandlogo{
@@ -92,14 +97,20 @@ h1{
     margin-left: 20px;
 }
 
+.hero__brandlist{
+    display: inline-block;
+}  
 
 
-@media (min-width: 48em){
+
+@media (min-width: 800px){
     .hero__cols {
         flex-direction: row;
     }
-
     .hero__imgcol {
         margin-top: -60px;
+    }
+    .hero__brandlist{
+        display: inline-block;
     }       
 }
