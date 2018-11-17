@@ -63,7 +63,7 @@ h4{
     text-decoration: none;
 }
 
-.hero__textcol a:hover, .hero__brandlogo:hover, .CTA a:hover{
+.hero__textcol a:hover, .hero__brandlogo:hover, .CTA a:hover, .footer__social a:hover{
     opacity: 0.8;
 }
 
