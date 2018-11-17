@@ -201,13 +201,22 @@ h3{
     background-color: #158af4;
     width: 30px;
     height: 30px;
-    margin-top: -77px;
+    margin-top: -82px;
     margin-left: 17px;
     transform: rotate(150deg);
 }
 
+.testimonials__quote::before{
+    content: url("img/quote.png");
+    position: relative;
+    top: 63px;
+    left: 19px;
+}
+
+
+
 .testimonials__author{
-    margin-top: 10px; 
+    margin-top: 17px; 
 }
 
 
