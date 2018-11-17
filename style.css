@@ -26,6 +26,14 @@ h3{
     margin-bottom: 32px;
 }
 
+h4{ 
+    font-size: 12.5px;
+    font-family: 'Open Sans', sans-serif;  
+    color: rgb(57, 116, 202);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
 .hero p{
     font-size: 15px;
     font-family: 'Open Sans', sans-serif;
@@ -236,6 +244,37 @@ h3{
     text-decoration: none;
 }
 
+footer{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 5% 20px 5%;
+    padding-bottom: 20px;
+}
+
+
+footer p{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(50, 50, 50);
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(57, 116, 202);
+}   
+.footer__social a{
+    margin-right: 10px;    
+}
+
+footer div{
+    margin-right: 10%;
+}
+
+.footer__social{
+    width: 535px;
+}
+
+
 @media (min-width: 800px){
     .hero__cols {
         flex-direction: row;
@@ -264,6 +303,9 @@ h3{
     }
     .testimonials__quote{
         width: 30%;
+    }
+    footer{
+        flex-direction: row;
     }
     
 }
