@@ -7,6 +7,24 @@ h1{
     line-height: 1.191;
 }
 
+h2{
+    font-size: 32px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(49, 84, 121);
+    line-height: 1.34;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+
+h3{
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(49, 84, 121);
+    font-weight: bold;
+}
+
+
 
 .hero p{
     font-size: 15px;
@@ -101,6 +119,35 @@ h1{
     display: inline-block;
 }  
 
+.shakers img {
+    width: 25%;
+}
+
+.features{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.features__first, .features__second{
+    display: flex;
+    flex-direction: column;
+}
+
+.features__img img{
+    width: 100%
+}
+
+.features p {
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(49, 84, 121);
+    /*line-height: 1.236;*/
+    text-align: left;
+}
+
+
+
+
 
 
 @media (min-width: 800px){
@@ -113,4 +160,11 @@ h1{
     .hero__brandlist{
         display: inline-block;
     }       
+    
+    .features__first, .features__second{
+        flex-direction: row;
+    }
+    .features__text{
+        width: 50%
+    }
 }
