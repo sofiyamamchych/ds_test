@@ -161,6 +161,39 @@ h3{
     margin-top: 21px;
 }
 
+.testimonials{
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.testimonials__quotes{
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonials__quote{
+    margin-right: 6px;
+}
+
+.testimonials__quotetext{
+    font-size: 19px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: #158af4;
+    border-radius: 4px;
+    padding: 46px 44px 46px 61px;
+}
+
+
+
+.testimonials__authorname, .testimonials__authorcompany{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(49, 84, 121);
+}
+
+.testimonials__authorcompany{
+    color: #667382;  
+}
 
 
 
@@ -174,7 +207,6 @@ h3{
     .hero__brandlist{
         display: inline-block;
     }       
-    
     .features__first, .features__second{
         flex-direction: row;
     }
@@ -187,6 +219,12 @@ h3{
     .features__second .features__text{
         margin-left: 10%;
     }
-    
 
+    .testimonials__quotes{
+        flex-direction: row;
+    }
+    .testimonials__quote{
+        width: 30%;
+    }
+    
 }
