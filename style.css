@@ -5,6 +5,7 @@ h1{
     font-weight: normal;
     width: 70%;
     line-height: 1.191;
+    letter-spacing: -0.7px;
 }
 
 h2{
@@ -39,13 +40,14 @@ h4{
     font-family: 'Open Sans', sans-serif;
     color: rgb(163, 208, 252);
     width: 85%;
-    padding: 14px 0;
-    /*line-height: 1.659;*/
+    padding: 6px 0 13px 0px;
+    line-height: 1.659;
+    letter-spacing: -0.3px;
 }
 
 .hero{
     background-color: #0e88f3;
-    padding-top: 62px;
+    padding-top: 91px;
 }
 
 .hero__cols {
@@ -56,7 +58,7 @@ h4{
 }
 
 .hero__textcol {
-    padding-left: 42px;
+    padding-left: 50px;
 }
 
 .hero__textcol a{
@@ -74,18 +76,17 @@ h4{
     color: rgb(52, 84, 119);
     text-transform: uppercase;
     line-height: 1.464;
-    padding: 16px 39px 18px 42px;
+    padding: 18px 40px 18px 41px;
     background-color: #9addfc;
-    border-radius: 3px;
+    border-radius: 4px;
 }
-
 
 .hero__watch{
     font-size: 13.5px;
     font-family: 'Open Sans', sans-serif;
     color: rgb(149, 201, 251);
     text-decoration: underline;
-    padding: 9px 0 0 44px;
+    padding: 11px 0 0 45px;
     line-height: 1.778;
 }
 
@@ -102,19 +103,23 @@ h4{
 }
 
 .hero__imgcol{
-    /*width: 50%;*/
+    margin-top: -79px;
+    margin-left: 30px;
 }
 
 .hero__imgcol img{
-    width: 100%;
+    width: 90%;
 }
 
 .hero__brands{
     font-size: 15px;
     font-family: 'Open Sans', sans-serif;
     color: rgb(163, 208, 252);
-    text-align: center;
-    padding-bottom: 18px;
+/*    text-align: center;
+*/  padding-bottom: 68px;
+    padding-top: 35px;
+    padding-left: 32px;
+    letter-spacing: -0.3px;
 }
 
 .hero__brandlogo{
@@ -124,6 +129,10 @@ h4{
 
 .hero__brandlist{
     display: inline-block;
+    margin-left: 7%;
+}
+.hero__brandlist a{
+    margin-left: 10px;
 }  
 
 .shakers{
@@ -148,6 +157,10 @@ h4{
 .shakers__item{
     border-left: 1px solid #1e91f7;
     border-bottom: 1px solid #1e91f7;
+}
+
+.shakers__item img{
+    margin-left: 10%;
 }
 
 .shakers__arrowprew{

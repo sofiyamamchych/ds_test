@@ -8,6 +8,7 @@
     font-size: 13px;
     font-family: 'Open Sans', sans-serif;
     color: rgb(210, 231, 251);
+    padding-top: 8px;
 }
 
 
@@ -37,6 +38,7 @@
     padding: 21px 42px;
     text-decoration: none;
     padding-right: 0;
+    margin-left: 8px;
 }
 
 .header__logo img{
@@ -135,7 +137,7 @@
        clear: none;
     /*  float: right;*/
         max-height: none;
-        padding-left: 22px;
+        padding-left: 64px;
         padding-top: 33px;
     }
     .header .menu-icon {
