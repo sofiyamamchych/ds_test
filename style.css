@@ -35,6 +35,16 @@ h4{
     text-transform: uppercase;
 }
 
+h5{
+    font-size: 21px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(49, 84, 121);
+    line-height: 1.333;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+
 .hero p{
     font-size: 15px;
     font-family: 'Open Sans', sans-serif;
@@ -118,22 +128,31 @@ h4{
 /*    text-align: center;
 */  padding-bottom: 68px;
     padding-top: 35px;
-    padding-left: 32px;
+    padding-left: 14%;
     letter-spacing: -0.3px;
 }
 
 .hero__brandlogo{
     width: 64px;
     margin-left: 20px;
+    margin-top: 10px;
 }
 
 .hero__brandlist{
     display: inline-block;
-    margin-left: 7%;
 }
+
 .hero__brandlist a{
     margin-left: 10px;
 }  
+
+.hero__brandlogofoodfirst{
+    width: 105px;
+}
+
+.hero__brandlogomaxbodyfood{
+    width: 122px;
+}
 
 .shakers{
     display: flex;
@@ -146,7 +165,7 @@ h4{
 .shakers__arrowprew, .shakers__arrownext{
     width: 5%;
     cursor: pointer;
-    padding-top: 120px;
+    padding-top: 138px;
 }
 
 .shakers__arrowprew img, .shakers__arrownext img{
@@ -157,6 +176,8 @@ h4{
 .shakers__item{
     border-left: 1px solid #1e91f7;
     border-bottom: 1px solid #1e91f7;
+    height: 273px;
+    padding-top: 24px;
 }
 
 .shakers__item img{
@@ -165,12 +186,19 @@ h4{
 
 .shakers__arrowprew{
     border-bottom: 1px solid #1e91f7;
+    margin: 0px 0px 0px 19px;
 }
 
 .shakers__arrownext{
     border-left: 1px solid #1e91f7;
     border-bottom: 1px solid #1e91f7;
+    margin: -4px -15px 0 0;
 }
+
+.shakers__carousel a{
+    text-decoration: none;
+}
+
 
 .features{
     margin-left: 6%;
