@@ -126,9 +126,38 @@ h4{
     display: inline-block;
 }  
 
-/*.shakers img {
-    width: 25%;
-}*/
+.shakers{
+    display: flex;
+}
+
+.shakers__carousel{
+    width: 90%;
+}
+
+.shakers__arrowprew, .shakers__arrownext{
+    width: 5%;
+    cursor: pointer;
+    padding-top: 120px;
+}
+
+.shakers__arrowprew img, .shakers__arrownext img{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.shakers__item{
+    border-left: 1px solid #1e91f7;
+    border-bottom: 1px solid #1e91f7;
+}
+
+.shakers__arrowprew{
+    border-bottom: 1px solid #1e91f7;
+}
+
+.shakers__arrownext{
+    border-left: 1px solid #1e91f7;
+    border-bottom: 1px solid #1e91f7;
+}
 
 .features{
     margin-left: 6%;
@@ -284,8 +313,8 @@ footer div{
     }
     .hero__brandlist{
         display: inline-block;
-    }       
-    .features__first, .features__second{
+    } 
+   .features__first, .features__second{
         flex-direction: row;
     }
     .features__text{
