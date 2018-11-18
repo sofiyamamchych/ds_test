@@ -13,8 +13,9 @@ h2{
     font-family: 'Open Sans', sans-serif;
     color: rgb(49, 84, 121);
     text-align: center;
-    width: 60%;
-    margin-left: 20%;
+    width: 52%;
+    margin-left: 26%;
+    margin-top: 54px;
     letter-spacing: -1.27px;
 }
 
@@ -24,7 +25,7 @@ h3{
     color: rgb(49, 84, 121);
     font-weight: bold;
     letter-spacing: -0.6px;
-    margin-bottom: 32px;
+    margin: 53px 0 0 24px;
 }
 
 h4{ 
@@ -186,7 +187,7 @@ h5{
 
 .shakers__arrowprew{
     border-bottom: 1px solid #1e91f7;
-    margin: 0px 0px 0px 19px;
+    margin: 0px 0px 0px 0px;
 }
 
 .shakers__arrownext{
@@ -218,7 +219,9 @@ h5{
 }
 
 .features__img img{
-    width: 100%
+    width: 100%;
+    margin-top: 28px;
+    margin-left: 14px;
 }
 
 .features p {
@@ -227,7 +230,12 @@ h5{
     color: rgb(49, 84, 121);
     text-align: left;
     letter-spacing: -1.65px;
-    margin-right: 50px;
+    margin: 33px 0 0 24px;
+    width: 88%;
+}
+
+.features__textsecond h3{
+    margin-top: 39px;
 }
 
 .features__second{
@@ -237,15 +245,18 @@ h5{
 .testimonials{
     margin-right: 5%;
     margin-left: 5%;
-    margin-bottom: 32px;
+    margin-bottom: 95px;
+    margin-top: 74px;
 }
 .testimonials__quotes{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    margin-left: 32px;
 }
 
 .testimonials__quote{
-    margin-right: 6px;
+    margin-right: 60px;
 }
 
 .testimonials__quotetext{
@@ -291,11 +302,13 @@ h5{
 
 .CTA{
     background-color: #0f89f4;
-    padding: 80px  0 80px 0;
+    padding: 1px 58px 82px 0;
 }
 
 .CTA h2{
     color: #fff;
+    width: 60%;
+    margin-bottom: 0;
 }
 
 .CTA p{
@@ -303,11 +316,14 @@ h5{
     font-family: 'Open Sans', sans-serif;
     color: rgb(210, 231, 251);
     text-align: center;
+    margin-left: 25%;
 }
 
 .CTA .button{
-    width: 173px;
-    margin-left: calc(50% - 134px);
+    width: 206px;
+    margin-left: calc(50% - 91px);
+    padding-right: 0;
+    margin-top: 38px;
 }
 
 .CTA a{
@@ -317,7 +333,7 @@ h5{
 footer{
     display: flex;
     flex-direction: column;
-    margin: 20px 5% 20px 5%;
+    margin: 54px 5% 20px 100px;
     padding-bottom: 20px;
 }
 
@@ -341,7 +357,7 @@ footer div{
 }
 
 .footer__social{
-    width: 535px;
+    width: 60%;
 }
 
 
@@ -368,14 +384,32 @@ footer div{
         margin-left: 10%;
     }
 
+    .shakers__item img{
+        margin-left: 30%;
+    }
+    .shakers__arrowprew{
+        border-bottom: 1px solid #1e91f7;
+        margin: 0px 0px 0px 19px;
+    }
+
     .testimonials__quotes{
         flex-direction: row;
     }
     .testimonials__quote{
         width: 30%;
     }
+    .CTA .button{
+        width: 206px;
+        margin-left: calc(50% - 65px);
+        padding-right: 0;
+        margin-top: 38px;
+    }
+
     footer{
         flex-direction: row;
     }
     
+    .footer__contact{
+        margin-left: -103px;
+    }
 }
